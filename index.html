@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adil Zhetigenov</title>
+  <meta name="description" content="Data Scientist Intern at Ericsson. CS student at ELTE. Building GenAI and agentic systems.">
+  <meta property="og:title" content="Adil Zhetigenov">
+  <meta property="og:description" content="Data Scientist Intern at Ericsson. Building GenAI platforms and agentic systems.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>A</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <h1>Adil Zhetigenov</h1>
+      <p class="subtitle">Data Scientist Intern @ Ericsson &middot; CS @ ELTE Budapest</p>
+      <p class="tagline">Building GenAI platforms and agentic systems. Interested in financial technology and structured data generation.</p>
+      <nav class="links">
+        <a href="https://github.com/adilzhetigenov" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/adilzhetigenov" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:jetigenovadil@gmail.com">Email</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Featured Project -->
+  <section class="featured">
+    <div class="container">
+      <span class="section-label">Featured Project</span>
+      <div class="featured-card">
+        <div class="featured-content">
+          <h2><a href="https://github.com/adilzhetigenov/egb-nlsql" target="_blank" rel="noopener">EGB NL-to-SQL</a></h2>
+          <p class="featured-desc">Natural language interface for querying European Government Bond data. Ask questions about yields, spreads, and yield curves in plain English &mdash; the system generates SQL, executes it, and returns results with auto-generated charts.</p>
+          <ul class="featured-highlights">
+            <li>Real ECB data: 3,500+ monthly yields across 11 countries, 50K+ daily yield curve points</li>
+            <li>Gemini 2.0 Flash for SQL generation with schema-aware prompting</li>
+            <li>FastAPI backend with SQL injection prevention + Streamlit frontend with Plotly charts</li>
+            <li>23-case evaluation suite testing sanitization, data integrity, and LLM generation quality</li>
+          </ul>
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>DuckDB</span>
+            <span>FastAPI</span>
+            <span>Gemini API</span>
+            <span>Streamlit</span>
+            <span>Plotly</span>
+          </div>
+        </div>
+        <div class="featured-architecture">
+          <pre class="arch-diagram">
+User Question
+     |
+  FastAPI
+     |
+ Gemini LLM ──▶ SQL Query
+     |
+  Validate
+     |
+  DuckDB (read-only)
+     |
+ Results + Chart
+     |
+  Streamlit UI</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Projects -->
+  <section class="work">
+    <div class="container">
+      <span class="section-label">Experience &amp; Projects</span>
+      <div class="cards">
+
+        <div class="card card-experience">
+          <div class="card-header">
+            <h3>Data Scientist Intern</h3>
+            <span class="card-meta">Ericsson &middot; Mar 2026 &ndash; Present</span>
+          </div>
+          <ul>
+            <li>Built and deployed an Agent Registry PoC to Kubernetes &mdash; adopted as the foundation for the team's agentic platform</li>
+            <li>Co-architecting a multi-agent system (registry, skills, GenUI, A2A) on Strands Agents SDK</li>
+            <li>Designing Snowflake integration for ECO, a GenAI product projected to cut feature delivery by ~60%</li>
+          </ul>
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>AWS</span>
+            <span>Kubernetes</span>
+            <span>Strands Agents</span>
+            <span>Snowflake</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Commercial ETL Pipeline</h3>
+            <span class="card-meta">ToiWare &middot; Oct 2025 &ndash; Feb 2026</span>
+          </div>
+          <ul>
+            <li>Built MVP ETL pipeline scraping business data from 2GIS, automating ingestion with Make</li>
+            <li>Implemented data normalization and deduplication for business directory parsing</li>
+            <li>Delivered production-ready pipeline on contract as sole developer</li>
+          </ul>
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>2GIS API</span>
+            <span>Make</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3><a href="https://github.com/Akbermet-Toktobekova/Lauz_hack_2025" target="_blank" rel="noopener">Financial Fraud Detection</a></h3>
+            <span class="card-meta">LauzHack 2025 &middot; Jan 2025</span>
+          </div>
+          <ul>
+            <li>GenAI fraud detection system using a 20B parameter LLM with prompt engineering</li>
+            <li>RAG agent with function calling for natural language queries over transaction data</li>
+          </ul>
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>RAG</span>
+            <span>Flask</span>
+            <span>Pandas</span>
+          </div>
+        </div>
+
+        <div class="card card-leadership">
+          <div class="card-header">
+            <h3>Agentic AI Hackathon</h3>
+            <span class="card-meta">GDGoC ELTE &middot; Co-Lead/President</span>
+          </div>
+          <ul>
+            <li>Organized in partnership with <strong>Morgan Stanley</strong> and <strong>Wise</strong></li>
+            <li>Coordinated 40-person team across 4 organizations, managed 100 attendees and &euro;2K budget</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-education">
+          <p><strong>E&ouml;tv&ouml;s Lor&aacute;nd University</strong> &middot; B.Sc. Computer Science &middot; GPA 4.0/5.0</p>
+          <p>Stipendium Hungaricum Scholar &middot; Full tuition + living allowance (&euro;29K+)</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/adilzhetigenov" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/adilzhetigenov" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:jetigenovadil@gmail.com">jetigenovadil@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
