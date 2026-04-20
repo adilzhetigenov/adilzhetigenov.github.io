@@ -11,7 +11,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>A</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,19 +21,59 @@
     <div class="container hero-grid">
       <div class="hero-text">
         <h1>Adil Zhetigenov</h1>
-        <p class="subtitle">Data Scientist Intern @ Ericsson · CS @ ELTE Budapest</p>
+        <p class="subtitle">Data Scientist Intern @ Ericsson &middot; CS @ ELTE Budapest</p>
         <p class="tagline">Building GenAI platforms and agentic systems. Interested in financial technology and structured data generation.</p>
         <nav class="links">
-          <a href="https://github.com/adilzhetigenov" target="_blank" rel="noopener">⚡ GitHub</a>
-          <a href="https://linkedin.com/in/adilzhetigenov" target="_blank" rel="noopener">💼 LinkedIn</a>
-          <a href="mailto:jetigenovadil@gmail.com">✉ Email</a>
+          <a href="https://github.com/adilzhetigenov" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/adilzhetigenov" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:jetigenovadil@gmail.com">Email</a>
         </nav>
       </div>
       <div class="hero-photo">
-        <img src="https://github.com/adilzhetigenov.png" alt="Adil Zhetigenov" width="140" height="140">
+        <img src="https://github.com/adilzhetigenov.png" alt="Adil Zhetigenov" width="150" height="150">
       </div>
     </div>
   </header>
+
+  <!-- Education -->
+  <section class="education">
+    <div class="container">
+      <div class="edu-card">
+        <div class="edu-main">
+          <h2>E&ouml;tv&ouml;s Lor&aacute;nd University</h2>
+          <p>B.Sc. Computer Science &middot; GPA 4.0/5.0 &middot; Sep 2022 &ndash; Jul 2026</p>
+        </div>
+        <div class="edu-badge">
+          <span class="scholarship-badge">&#127891; Stipendium Hungaricum Scholar</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills">
+    <div class="container">
+      <span class="section-label">Skills &amp; Tools</span>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="tech-tags"><span>Python</span><span>SQL</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>GenAI</h3>
+          <div class="tech-tags"><span>Gemini API</span><span>RAG</span><span>Prompt Engineering</span><span>Strands Agents</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Data</h3>
+          <div class="tech-tags"><span>Pandas</span><span>DuckDB</span><span>Snowflake</span><span>NumPy</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Infrastructure</h3>
+          <div class="tech-tags"><span>AWS</span><span>Kubernetes</span><span>Docker</span><span>FastAPI</span><span>GitLab CI/CD</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Featured Project -->
   <section class="featured">
@@ -41,7 +81,7 @@
       <span class="section-label">Featured Project</span>
       <div class="featured-card">
         <div class="featured-content">
-          <h2><a href="https://github.com/adilzhetigenov/egb-nlsql" target="_blank" rel="noopener">EGB NL-to-SQL</a></h2>
+          <h2><a href="https://github.com/adilzhetigenov/egb-nlsql" target="_blank" rel="noopener">EGB NL-to-SQL &#8599;</a></h2>
           <p class="featured-desc">Natural language interface for querying European Government Bond data. Ask questions about yields, spreads, and yield curves in plain English &mdash; the system generates SQL, executes it, and returns results with auto-generated charts.</p>
           <ul class="featured-highlights">
             <li>Real ECB data: 3,500+ monthly yields across 11 countries, 50K+ daily yield curve points</li>
@@ -122,7 +162,7 @@ User Question
 
         <div class="card">
           <div class="card-header">
-            <h3><a href="https://github.com/Akbermet-Toktobekova/Lauz_hack_2025" target="_blank" rel="noopener">Financial Fraud Detection</a></h3>
+            <h3><a href="https://github.com/Akbermet-Toktobekova/Lauz_hack_2025" target="_blank" rel="noopener">Financial Fraud Detection &#8599;</a></h3>
             <span class="card-meta">LauzHack 2025 &middot; Jan 2025</span>
           </div>
           <ul>
@@ -139,7 +179,7 @@ User Question
 
         <div class="card card-leadership">
           <div class="card-header">
-            <h3><a href="https://gdg.community.dev/e/mne536/" target="_blank" rel="noopener">Agentic AI Hackathon</a></h3>
+            <h3><a href="https://gdg.community.dev/e/mne536/" target="_blank" rel="noopener">Agentic AI Hackathon &#8599;</a></h3>
             <span class="card-meta">GDGoC ELTE &middot; Co-Lead/President</span>
           </div>
           <ul>
@@ -148,9 +188,9 @@ User Question
           </ul>
         </div>
 
-        <div class="card">
+        <div class="card card-wide">
           <div class="card-header">
-            <h3><a href="https://sunnahway.vercel.app" target="_blank" rel="noopener">SunnahWay</a></h3>
+            <h3><a href="https://sunnahway.vercel.app" target="_blank" rel="noopener">SunnahWay &#8599;</a></h3>
             <span class="card-meta">Personal Project &middot; Apr 2026</span>
           </div>
           <ul>
@@ -173,10 +213,7 @@ User Question
   <footer>
     <div class="container">
       <div class="footer-content">
-        <div class="footer-education">
-          <p><strong>E&ouml;tv&ouml;s Lor&aacute;nd University</strong> &middot; B.Sc. Computer Science &middot; GPA 4.0/5.0</p>
-          <p>Stipendium Hungaricum Scholar &middot; Full tuition + living allowance (&euro;29K+)</p>
-        </div>
+        <p>&copy; 2026 Adil Zhetigenov &middot; Budapest, Hungary</p>
         <div class="footer-links">
           <a href="https://github.com/adilzhetigenov" target="_blank" rel="noopener">GitHub</a>
           <a href="https://linkedin.com/in/adilzhetigenov" target="_blank" rel="noopener">LinkedIn</a>
