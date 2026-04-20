@@ -118,6 +118,20 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-
   font-size: 0.95rem;
   color: var(--text-secondary);
   line-height: 1.85;
+  margin-bottom: 12px;
+}
+
+.about p:last-of-type:not(.availability) { margin-bottom: 16px; }
+
+.availability {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent);
+  padding: 8px 16px;
+  background: var(--accent-light);
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 /* ── Dividers ── */

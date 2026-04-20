@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adil Zhetigenov</title>
-  <meta name="description" content="Data Scientist Intern at Ericsson. Building GenAI platforms and agentic systems.">
+  <meta name="description" content="Building agentic AI at Ericsson. NL-to-SQL over bond markets for fun.">
   <meta property="og:title" content="Adil Zhetigenov">
-  <meta property="og:description" content="Data Scientist Intern at Ericsson. Building GenAI platforms and agentic systems.">
+  <meta property="og:description" content="Building agentic AI at Ericsson. NL-to-SQL over bond markets for fun.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
     <div class="container">
       <p class="greeting">Hi, I'm</p>
       <h1>Adil Zhetigenov</h1>
-      <p class="tagline">I build GenAI platforms and agentic systems at <strong>Ericsson</strong>. Final-year CS student at ELTE Budapest, interested in where AI meets financial data.</p>
+      <p class="tagline">I build AI systems that make financial data talk back &mdash; agentic platforms at <strong>Ericsson</strong>, NL-to-SQL over bond markets for fun.</p>
       <nav class="links">
         <a href="https://github.com/adilzhetigenov" target="_blank" rel="noopener">GitHub</a>
         <a href="https://linkedin.com/in/adilzhetigenov" target="_blank" rel="noopener">LinkedIn</a>
@@ -33,7 +33,9 @@
   <!-- About -->
   <section class="about">
     <div class="container">
-      <p>I like building things that turn messy data into clear answers. Right now I'm co-architecting a multi-agent system at Ericsson and exploring how LLMs can generate reliable SQL over financial datasets. Before that I organized a 100-person AI hackathon with Morgan Stanley and Wise, and shipped an ETL pipeline as a solo contractor. I care about clean abstractions, honest evaluation, and making complex systems feel simple.</p>
+      <p>I like building things that turn messy data into clear answers. My current obsession is making LLMs generate SQL you can actually trust &mdash; not the &ldquo;works on the demo&rdquo; kind, the &ldquo;runs against 50K daily yield curve points from the ECB&rdquo; kind.</p>
+      <p>At Ericsson, I built the agent registry my team now ships on top of. Before that, I pitched Morgan Stanley and Wise into sponsoring a hackathon, then convinced 100 people to show up. I think the best systems feel obvious in hindsight &mdash; I want to build more of those.</p>
+      <p class="availability">Graduating July 2026. Open to full-time roles in AI/ML engineering and data science.</p>
     </div>
   </section>
 
@@ -46,11 +48,11 @@
       <div class="featured-card">
         <div class="featured-content">
           <h2><a href="https://github.com/adilzhetigenov/egb-nlsql" target="_blank" rel="noopener">EGB NL-to-SQL</a></h2>
-          <p class="featured-desc">Ask questions about European Government Bond yields in plain English. The system generates SQL, validates it, executes against real ECB data, and returns charts.</p>
+          <p class="featured-desc">Ask a plain-English question about European Government Bond yields. Get validated SQL, real ECB data, and a chart &mdash; not a hallucination.</p>
           <ul class="featured-highlights">
-            <li>3,500+ monthly yields across 11 countries, 50K+ daily yield curve points</li>
-            <li>Gemini 2.0 Flash with schema-aware prompting for SQL generation</li>
-            <li>23-case evaluation suite: sanitization, data integrity, LLM quality</li>
+            <li>23-case evaluation suite testing sanitization, data integrity, and LLM generation quality &mdash; because &ldquo;it looks right&rdquo; isn&rsquo;t a metric</li>
+            <li>Real ECB data: 3,500+ monthly yields across 11 countries, 50K+ daily yield curve points</li>
+            <li>Gemini 2.0 Flash with schema-aware prompting, FastAPI backend with SQL injection prevention</li>
           </ul>
           <div class="tech-tags">
             <span>Python</span>
@@ -83,7 +85,7 @@
   <!-- Experience -->
   <section class="work">
     <div class="container">
-      <span class="section-label">Experience &amp; Projects</span>
+      <span class="section-label">Experience</span>
 
       <div class="timeline">
 
@@ -95,9 +97,9 @@
               <span class="entry-meta">Ericsson &middot; Mar 2026 &ndash; Present</span>
             </div>
             <ul>
-              <li>Built and deployed Agent Registry PoC to Kubernetes &mdash; adopted as foundation for the team's agentic platform</li>
-              <li>Co-architecting multi-agent system (registry, skills, GenUI, A2A) on Strands Agents SDK</li>
-              <li>Designing Snowflake integration for ECO, projected to cut feature delivery by ~60%</li>
+              <li>Built and deployed an agent registry to production Kubernetes &mdash; now the foundation the team ships agentic features on</li>
+              <li>Co-architecting a multi-agent orchestration system: service discovery, skill routing, and agent-to-agent communication</li>
+              <li>Designing a natural language layer over Snowflake for a GenAI product projected to cut feature delivery time by ~60%</li>
             </ul>
             <div class="tech-tags">
               <span>Python</span>
@@ -114,11 +116,11 @@
           <div class="entry-content">
             <div class="entry-header">
               <h3><a href="https://gdg.community.dev/e/mne536/" target="_blank" rel="noopener">Agentic AI Hackathon</a></h3>
-              <span class="entry-meta">GDGoC ELTE &middot; Co-Lead/President</span>
+              <span class="entry-meta">GDGoC ELTE &middot; Co-Lead</span>
             </div>
             <ul>
-              <li>Organized with <strong>Morgan Stanley</strong> and <strong>Wise</strong> &mdash; 100 attendees, 40-person team, &euro;2K budget</li>
-              <li>Secured partnerships with Citi, Prezi, MSCI &mdash; created internship pipelines for 240+ students</li>
+              <li>Pitched and closed sponsorships with Morgan Stanley, Wise, Citi, Prezi, and MSCI &mdash; on a &euro;2K budget</li>
+              <li>Led a 40-person organizing team across 4 university chapters, 100 attendees, created internship pipelines for 240+ students</li>
             </ul>
           </div>
         </article>
@@ -128,33 +130,15 @@
           <div class="entry-content">
             <div class="entry-header">
               <h3><a href="https://sunnahway.vercel.app" target="_blank" rel="noopener">SunnahWay</a></h3>
-              <span class="entry-meta">Personal Project &middot; Apr 2026</span>
+              <span class="entry-meta">Side Project &middot; Apr 2026</span>
             </div>
             <ul>
-              <li>WikiHow-style Islamic educational site: 51 articles, 71 static pages, Fuse.js search, daily content rotation</li>
+              <li>Designed the content architecture, search system, and topic taxonomy for a 51-article educational site &mdash; every article went through multiple rounds of source verification</li>
             </ul>
             <div class="tech-tags">
               <span>Next.js</span>
               <span>TypeScript</span>
               <span>Tailwind CSS</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="entry">
-          <div class="entry-dot"></div>
-          <div class="entry-content">
-            <div class="entry-header">
-              <h3><a href="https://github.com/Akbermet-Toktobekova/Lauz_hack_2025" target="_blank" rel="noopener">Financial Fraud Detection</a></h3>
-              <span class="entry-meta">LauzHack 2025 &middot; Jan 2025</span>
-            </div>
-            <ul>
-              <li>GenAI fraud detection with 20B parameter LLM, RAG agent with function calling over transaction data</li>
-            </ul>
-            <div class="tech-tags">
-              <span>Python</span>
-              <span>RAG</span>
-              <span>Flask</span>
             </div>
           </div>
         </article>
@@ -168,7 +152,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-edu">
-          <p><strong>ELTE Budapest</strong> &middot; B.Sc. Computer Science &middot; GPA 4.0/5.0</p>
+          <p><strong>ELTE Budapest</strong> &middot; B.Sc. Computer Science</p>
           <p class="footer-note">Stipendium Hungaricum Scholar</p>
         </div>
         <div class="footer-links">
