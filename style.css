@@ -109,6 +109,17 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-
   box-shadow: 0 4px 12px rgba(74,115,73,0.2);
 }
 
+.link-primary {
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-color: var(--accent) !important;
+}
+
+.link-primary:hover {
+  background: var(--accent-hover) !important;
+  border-color: var(--accent-hover) !important;
+}
+
 /* ── About ── */
 .about {
   padding: 48px 0 40px;
